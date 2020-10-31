@@ -1,16 +1,19 @@
 import 'dart:io';
-
+import 'package:Elixir/Authentication/custom_route.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
 import 'package:flutter/material.dart';
 import 'package:flutter_login/flutter_login.dart';
-import 'custom_route.dart';
+import '../database.dart';
+import '../One_on_One_chat/chatroom.dart';
+import '../One_on_One_chat/database1.dart';
+//import 'custom_route.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:ctrl_alt_elite/nav_bar.dart';
+import 'package:Elixir/nav_bar.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:ctrl_alt_elite/database.dart';
-import 'package:ctrl_alt_elite/Screens/Chat.dart';
+import '../One_on_One_chat/database.dart';
+import '../One_on_One_chat/database1.dart';
 
 class LoginScreen extends StatelessWidget {
   static const routeName = '/auth';
@@ -71,6 +74,9 @@ class LoginScreen extends StatelessWidget {
     return FlutterLogin(
       logo: 'assets/images/icon.png',
       title: 'Elixir',
+      messages: LoginMessages(
+        forgotPasswordButton: ' ',
+      ),
       emailValidator: (value) {
         if (!value.contains('@') || !value.endsWith('.com')) {
           return "Email must contain '@' and end with '.com'";
@@ -97,7 +103,7 @@ class LoginScreen extends StatelessWidget {
             prefs.remove('email');
             prefs.setString('email', email);
             IsEmailVerified(context);
-            Chat(currentUser: loginData.name.substring(0, email.length - 10));
+            ChatRoom();
             Navigator.of(context).pushReplacement(FadePageRoute(
               builder: (context) => Nav_Bar(),
             ));
@@ -120,6 +126,13 @@ class LoginScreen extends StatelessWidget {
               .updateUserData(email.substring(0, email.length - 10));
           sendVerificationEmail();
           if (newUser != null) {
+            Map<String, String> userDataMap = {
+              "userName":
+                  loginData.name.substring(0, loginData.name.length - 10),
+              "userEmail": loginData.name,
+            };
+            DatabaseMethods databaseMethods = new DatabaseMethods();
+            databaseMethods.addUserInfo(userDataMap);
             Fluttertoast.showToast(
                 msg: "Registration successful",
                 toastLength: Toast.LENGTH_SHORT,

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Eeshan Dutta\\Documents\\GitHub\\Elixir\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\Eeshan Dutta\\Downloads\\test-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\423ddb4916efa34ee0aaf7bc1499bd6c\\appcompat-1.1.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\33cd25e0d4251e14ec41054cf7aef7f0\\appcompat-1.1.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\3fc45067e5d4f81a347afb5bc6343590\\play-services-base-17.1.0\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\5847ca3fcf7a0129bb351b897fc2f7cc\\play-services-base-17.2.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\765d948781557ca60ad60520b9d583b2\\core-1.1.0\\res\\values-sq\\values-sq.xml",
+                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\5232fc3840c97813025126e301fc2739\\core-1.2.0\\res\\values-sq\\values-sq.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\c7045e95038ef26cd3a2c525c014d1a4\\jetified-play-services-basement-17.0.0\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\9ffee07327e457c5e265c28ec70adea7\\jetified-play-services-basement-17.2.1\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

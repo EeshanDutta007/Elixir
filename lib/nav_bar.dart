@@ -1,22 +1,22 @@
 import 'dart:async';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:circular_reveal_animation/circular_reveal_animation.dart';
-import 'package:ctrl_alt_elite/Screens/Chatcards.dart';
-import 'package:ctrl_alt_elite/Screens/Location.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'Screens/Feed.dart';
-import 'Screens/About.dart';
-import 'Screens/Assistant.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:Elixir/nbl.dart';
+import 'Assistant.dart';
+import 'Feed.dart';
+import 'About.dart';
+import 'nbl.dart';
+import 'package:Elixir/One_on_One_chat/chatroom.dart';
 
 String currentUser;
 
 class Nav_Bar extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -39,7 +39,8 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMixin {
+class _MyHomePageState extends State<MyHomePage>
+    with SingleTickerProviderStateMixin {
   var _bottomNavIndex = 0; //default index of first screen
   AnimationController _animationController;
   Animation<double> animation;
@@ -49,12 +50,12 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     Icons.dynamic_feed_outlined,
     Icons.chat,
     Icons.location_on,
-    Icons.person,
+    Icons.info_outline_sharp,
   ];
 
-  void f() async{
+  void f() async {
     final prefs = await SharedPreferences.getInstance();
-    currentUser=prefs.getString('email');
+    currentUser = prefs.getString('email');
   }
 
   @override
@@ -85,7 +86,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
 
     Future.delayed(
       Duration(seconds: 1),
-          () => _animationController.forward(),
+      () => _animationController.forward(),
     );
   }
 
@@ -97,18 +98,19 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
       resizeToAvoidBottomInset: false,
       body: Stack(
         children: <Widget>[
-          _bottomNavIndex==0
-              ? Feed():
-          _bottomNavIndex==1
-              ? ChatCard(currentUser: currentUser.substring(0,currentUser.indexOf('@'))):
-          _bottomNavIndex==2
-              ? LocationPage():
-          _bottomNavIndex==3
-              ? AboutPage(currentUser: currentUser):
-          Container(
-            color: Colors.black,
-            child: Text('AN ERROR OCCURRED', style: TextStyle(fontSize: 18)),
-          ),
+          _bottomNavIndex == 0
+              ? Feed()
+              : _bottomNavIndex == 1
+                  ? ChatRoom()
+                  : _bottomNavIndex == 2
+                      ? nearby_Hospitals()
+                      : _bottomNavIndex == 3
+                          ? AboutPage(currentUser: currentUser)
+                          : Container(
+                              color: Colors.black,
+                              child: Text('AN ERROR OCCURRED',
+                                  style: TextStyle(fontSize: 18)),
+                            ),
         ],
       ),
       floatingActionButton: ScaleTransition(
@@ -117,15 +119,14 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
           elevation: 8,
           backgroundColor: HexColor('#77FF77'),
           child: IconButton(
-              icon : Icon(FlutterIcons.google_assistant_mco),
+              icon: Icon(FlutterIcons.google_assistant_mco),
               color: HexColor('#373A36'),
               onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => AssistantPage()),
                 );
-              }
-          ),
+              }),
           onPressed: () {
             _animationController.reset();
             _animationController.forward();
@@ -161,7 +162,8 @@ class NavigationScreen extends StatefulWidget {
   _NavigationScreenState createState() => _NavigationScreenState();
 }
 
-class _NavigationScreenState extends State<NavigationScreen> with TickerProviderStateMixin {
+class _NavigationScreenState extends State<NavigationScreen>
+    with TickerProviderStateMixin {
   AnimationController _controller;
   Animation<double> animation;
 

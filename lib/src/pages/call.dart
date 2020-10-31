@@ -63,7 +63,7 @@ class _CallPageState extends State<CallPage> {
   void _addAgoraEventHandlers() {
     AgoraRtcEngine.onError = (dynamic code) {
       setState(() {
-        final info = 'onError: $code';
+        final info = '';
         _infoStrings.add(info);
       });
     };
@@ -74,21 +74,21 @@ class _CallPageState extends State<CallPage> {
       int elapsed,
     ) {
       setState(() {
-        final info = 'onJoinChannel: $channel, uid: $uid';
+        final info = '';
         _infoStrings.add(info);
       });
     };
 
     AgoraRtcEngine.onLeaveChannel = () {
       setState(() {
-        _infoStrings.add('onLeaveChannel');
+        _infoStrings.add('');
         _users.clear();
       });
     };
 
     AgoraRtcEngine.onUserJoined = (int uid, int elapsed) {
       setState(() {
-        final info = 'userJoined: $uid';
+        final info = '';
         _infoStrings.add(info);
         _users.add(uid);
       });
@@ -96,7 +96,7 @@ class _CallPageState extends State<CallPage> {
 
     AgoraRtcEngine.onUserOffline = (int uid, int reason) {
       setState(() {
-        final info = 'userOffline: $uid';
+        final info = '';
         _infoStrings.add(info);
         _users.remove(uid);
       });
@@ -109,7 +109,7 @@ class _CallPageState extends State<CallPage> {
       int elapsed,
     ) {
       setState(() {
-        final info = 'firstRemoteVideo: $uid ${width}x $height';
+        final info = '';
         _infoStrings.add(info);
       });
     };

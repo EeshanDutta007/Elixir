@@ -1,4 +1,4 @@
-name: ctrl_alt_elite
+name: Elixir
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -21,15 +21,19 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  translator: ^0.1.4
   flutter:
     sdk: flutter
+  http: ^0.12.2
+  html: ^0.14.0+4
+  google_fonts: ^1.1.1
+  geolocator: ^5.3.1
+  google_maps_flutter: ^1.0.5
+  flutter_ibm_watson: ^0.0.1
   animated_bottom_navigation_bar: ^0.1.2+2
   circular_reveal_animation: ^1.1.5
   toggle_switch: "^0.1.4"
   font_awesome_flutter: ^8.7.0
   bottom_navy_bar: ^5.4.0
-  cupertino_icons: ^0.1.3
   eva_icons_flutter: ^2.0.1
   url_launcher: ^5.7.2
   provider: ^4.3.2+2
@@ -51,16 +55,18 @@ dependencies:
   firebase_analytics: ^6.0.2
   flutter_login: ^1.0.14
   flutter_launcher_icons: ^0.7.2+1
-  http: ^0.12.2
   pull_to_refresh: ^1.6.2
   hexcolor: ^1.0.6
+  location_permissions: ^3.0.0
+  android_intent: ^0.3.6+12
+  permission_handler: ^4.4.0+hotfix.2
+  random_string: ^2.0.1
   agora_rtc_engine: 1.0.5
-  permission_handler: ^3.0.0
 
 flutter_icons:
-    android: "launcher_icon"
-    ios: true
-    image_path: "assets/images/icon.png"
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
 
 dev_dependencies:
   custom_switch: 0.0.1
@@ -80,8 +86,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/Assistant Background.jpg
     - assets/images/
+    - images/
 
   fonts:
     - family: OpenSans
@@ -154,4 +160,6 @@ flutter:
           weight: 600
         - asset: assets/fonts/Quicksand-Bold.ttf
           weight: 700
-
+    - family: OverpassRegular
+      fonts:
+        - asset: assets/fonts/overpass_regular.otf

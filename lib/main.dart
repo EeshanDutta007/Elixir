@@ -1,4 +1,6 @@
-import 'package:ctrl_alt_elite/nav_bar.dart';
+import 'package:flutter/rendering.dart';
+
+import 'nav_bar.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'Authentication/login_screen.dart';
@@ -7,9 +9,12 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'Screens/Chat.dart';
+import 'Chat123.dart';
+import 'dart:ui' as ui;
 
 Future<void> main() async {
+  RenderErrorBox.backgroundColor = Colors.white;
+  RenderErrorBox.textStyle = ui.TextStyle(color: Colors.white);
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -33,19 +38,23 @@ class MyApp extends StatelessWidget {
   ThemeData theme;
   Widget build(BuildContext context) {
     if (status != null)
-      Chat(currentUser: currentUser.substring(0, currentUser.length - 10));
+      Chat123(currentUser: currentUser.substring(0, currentUser.length - 10));
     return MaterialApp(
         theme: ThemeData(
+          // brightness: Brightness.dark,
           primarySwatch: Colors.green,
           accentColor: Colors.white,
           cursorColor: Colors.white,
+          // fontFamily: 'SourceSansPro',
           textTheme: TextTheme(
             display2: TextStyle(
               fontFamily: 'OpenSans',
               fontSize: 45.0,
+              // fontWeight: FontWeight.w400,
               color: Colors.white,
             ),
             button: TextStyle(
+              // OpenSans is similar to NotoSans but the uppercases look a bit better IMO
               fontFamily: 'OpenSans',
             ),
             caption: TextStyle(
@@ -66,6 +75,8 @@ class MyApp extends StatelessWidget {
             overline: TextStyle(fontFamily: 'NotoSans'),
           ),
         ),
-        home: Scaffold(body: status != null ? Nav_Bar() : LoginScreen()));
+        home: Scaffold(
+            resizeToAvoidBottomInset: false,
+            body: status != null ? Nav_Bar() : LoginScreen()));
   }
 }
