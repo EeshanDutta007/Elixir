@@ -1,6 +1,7 @@
 import 'package:ctrl_alt_elite/Screens/Chat.dart';
 import 'package:ctrl_alt_elite/nav_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:ctrl_alt_elite/Video.dart';
 
 class ChatCard extends StatefulWidget {
   String currentUser;
@@ -79,10 +80,16 @@ class _ChatCardState extends State<ChatCard> {
           Padding(
             padding: const EdgeInsets.all(100.0),
             child: Center(
-              child: FloatingActionButton.extended(
-                label: Text('Video call'),
-                icon: Icon(Icons.video_call),
-                backgroundColor: Colors.green,
+              child: RaisedButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => Video()),
+                  );
+                },
+                child: Text('Video Call'),
+                color: Colors.green,
+                textColor: Colors.white,
               ),
             ),
           ),

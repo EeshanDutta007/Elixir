@@ -36,20 +36,16 @@ class MyApp extends StatelessWidget {
       Chat(currentUser: currentUser.substring(0, currentUser.length - 10));
     return MaterialApp(
         theme: ThemeData(
-          // brightness: Brightness.dark,
           primarySwatch: Colors.green,
           accentColor: Colors.white,
           cursorColor: Colors.white,
-          // fontFamily: 'SourceSansPro',
           textTheme: TextTheme(
             display2: TextStyle(
               fontFamily: 'OpenSans',
               fontSize: 45.0,
-              // fontWeight: FontWeight.w400,
               color: Colors.white,
             ),
             button: TextStyle(
-              // OpenSans is similar to NotoSans but the uppercases look a bit better IMO
               fontFamily: 'OpenSans',
             ),
             caption: TextStyle(

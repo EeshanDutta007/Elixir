@@ -10,11 +10,13 @@ MERGED from [:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\bu
 MERGED from [:hexcolor] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\hexcolor\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:flutter_tts] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-19:12
 MERGED from [:image_cropper] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:permission_handler] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:shared_preferences] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:speech_to_text] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\speech_to_text\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
@@ -69,6 +71,7 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\54892eee929906e169d64ad24cacecaf\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\8c7a0a4e53912a5bedae762d32fbfc3f\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\6495dbd7f5fd0643b0d70ffa2e3be2d3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.agora.rtc:full-sdk:2.9.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\9d6a73fb3d429dccf236b6ecff3cbacb\full-sdk-2.9.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ca38ebbe2b2249639a5f2f716dca608e\protolite-well-known-types-17.0.0\AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:2:1-13:12
 INJECTED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -92,6 +95,8 @@ uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:8:5-66
 MERGED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:8:5-66
 MERGED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:8:5-66
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-67
 MERGED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
 MERGED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:23:5-67
@@ -112,6 +117,8 @@ MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutt
 		ADDED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:9:5-70
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
 	android:name
 		ADDED from C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:9:22-68
 application
@@ -244,6 +251,8 @@ MERGED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\
 MERGED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:flutter_tts] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:flutter_tts] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\flutter_tts\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -254,6 +263,8 @@ MERGED from [:image_cropper] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build
 MERGED from [:image_cropper] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:shared_preferences] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:speech_to_text] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\speech_to_text\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
@@ -362,6 +373,8 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Eeshan Dutta\.
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\8c7a0a4e53912a5bedae762d32fbfc3f\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\6495dbd7f5fd0643b0d70ffa2e3be2d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\6495dbd7f5fd0643b0d70ffa2e3be2d3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [io.agora.rtc:full-sdk:2.9.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\9d6a73fb3d429dccf236b6ecff3cbacb\full-sdk-2.9.1\AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:full-sdk:2.9.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\9d6a73fb3d429dccf236b6ecff3cbacb\full-sdk-2.9.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ca38ebbe2b2249639a5f2f716dca608e\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ca38ebbe2b2249639a5f2f716dca608e\protolite-well-known-types-17.0.0\AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:7:5-9:41
@@ -416,6 +429,8 @@ ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\i
 		ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-81
+MERGED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
@@ -434,6 +449,40 @@ ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\i
 		ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
 	android:name
 		ADDED from [:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+uses-permission#android.permission.CAMERA
+ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+MERGED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+MERGED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\b164b250cbd7a404a869ef675fc3afa6\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\b164b250cbd7a404a869ef675fc3afa6\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\93b617c73c3149b130460cc69c8f696e\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\93b617c73c3149b130460cc69c8f696e\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.BLUETOOTH
+ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-65
 activity#io.flutter.plugins.urllauncher.WebViewActivity
 ADDED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
 	android:exported
@@ -442,26 +491,6 @@ ADDED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\u
 		ADDED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
 	android:name
 		ADDED from [:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\b164b250cbd7a404a869ef675fc3afa6\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\b164b250cbd7a404a869ef675fc3afa6\play-services-measurement-impl-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\93b617c73c3149b130460cc69c8f696e\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\93b617c73c3149b130460cc69c8f696e\play-services-measurement-sdk-api-17.5.0\AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:10:5-79
-MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:26:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:13:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.21.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\ccd6c664c64d60493579babaf9d55530\grpc-android-1.21.0\AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
 MERGED from [com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:25:5-68

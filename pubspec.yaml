@@ -54,6 +54,8 @@ dependencies:
   http: ^0.12.2
   pull_to_refresh: ^1.6.2
   hexcolor: ^1.0.6
+  agora_rtc_engine: 1.0.5
+  permission_handler: ^3.0.0
 
 flutter_icons:
     android: "launcher_icon"

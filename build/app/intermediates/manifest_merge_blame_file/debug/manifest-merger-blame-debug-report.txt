@@ -23,265 +23,274 @@
 17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 17-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
 17-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
-18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
-18-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
-19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
-19-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
-20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-20-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
-20-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
-21
-22    <application
-22-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:10:5-52:19
-23        android:name="io.flutter.app.FlutterApplication"
-23-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:11:9-57
-24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\765d948781557ca60ad60520b9d583b2\core-1.1.0\AndroidManifest.xml:24:18-86
-25        android:debuggable="true"
-26        android:icon="@mipmap/launcher_icon"
-26-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:13:9-45
-27        android:label="Elixir" >
-27-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:12:9-31
-28        <activity
-28-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:14:9-42:20
-29            android:name="com.example.elchackathon_app.MainActivity"
-29-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:15:13-41
-30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-30-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:18:13-163
-31            android:hardwareAccelerated="true"
-31-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:19:13-47
-32            android:launchMode="singleTop"
-32-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:16:13-43
-33            android:theme="@style/LaunchTheme"
-33-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:17:13-47
-34            android:windowSoftInputMode="adjustResize" >
-34-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:20:13-55
-35
-36            <!--
-37                 Specifies an Android theme to apply to this Activity as soon as
-38                 the Android process has started. This theme is visible to the user
-39                 while the Flutter UI initializes. After that, this theme continues
-40                 to determine the Window background behind the Flutter UI.
-41            -->
-42            <meta-data
-42-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:25:13-28:17
-43                android:name="io.flutter.embedding.android.NormalTheme"
-43-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:26:15-70
-44                android:resource="@style/NormalTheme" />
-44-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:27:15-52
-45            <!--
-46                 Displays an Android View that continues showing the launch screen
-47                 Drawable until Flutter paints its first frame, then this splash
-48                 screen fades out. A splash screen is useful to avoid any visual
-49                 gap between the end of Android's launch screen and the painting of
-50                 Flutter's first frame.
-51            -->
-52            <meta-data
-52-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:34:13-37:17
-53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
-53-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:35:15-79
-54                android:resource="@drawable/launch_background" />
-54-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:36:15-61
-55
-56            <intent-filter>
-56-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:38:13-41:29
-57                <action android:name="android.intent.action.MAIN" />
-57-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:39:17-68
-57-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:39:25-66
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+18-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-80
+19-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-77
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-79
+20-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-68
+21-->[:agora_rtc_engine] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\agora_rtc_engine\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-65
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+22-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+23    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+23-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+23-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+24
+25    <application
+25-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:10:5-52:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:11:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\765d948781557ca60ad60520b9d583b2\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/launcher_icon"
+29-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:13:9-45
+30        android:label="Elixir" >
+30-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:12:9-31
+31        <activity
+31-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:14:9-42:20
+32            android:name="com.example.elchackathon_app.MainActivity"
+32-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:15:13-41
+33            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+33-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:18:13-163
+34            android:hardwareAccelerated="true"
+34-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:19:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:16:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:17:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:20:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:25:13-28:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:26:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:27:15-52
+48            <!--
+49                 Displays an Android View that continues showing the launch screen
+50                 Drawable until Flutter paints its first frame, then this splash
+51                 screen fades out. A splash screen is useful to avoid any visual
+52                 gap between the end of Android's launch screen and the painting of
+53                 Flutter's first frame.
+54            -->
+55            <meta-data
+55-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:34:13-37:17
+56                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+56-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:35:15-79
+57                android:resource="@drawable/launch_background" />
+57-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:36:15-61
 58
-59                <category android:name="android.intent.category.LAUNCHER" />
-59-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:40:17-76
-59-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:40:27-74
-60            </intent-filter>
-61        </activity>
-62        <activity
-62-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:43:9-46:71
-63            android:name="com.yalantis.ucrop.UCropActivity"
-63-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:44:13-60
-64            android:screenOrientation="portrait"
-64-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:45:13-49
-65            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-65-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:46:13-69
-66        <!--
-67             Don't delete the meta-data below.
-68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-69        -->
-70        <meta-data
-70-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:49:9-51:33
-71            android:name="flutterEmbedding"
-71-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:50:13-44
-72            android:value="2" />
-72-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:51:13-30
-73
-74        <service
-74-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
-75            android:name="com.google.firebase.components.ComponentDiscoveryService"
-75-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
-76            android:directBootAware="true"
-76-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-77            android:exported="false" >
-77-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:29:13-37
-78            <meta-data
-78-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-79-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
-80                android:value="com.google.firebase.components.ComponentRegistrar" />
-80-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+59            <intent-filter>
+59-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:38:13-41:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:39:17-68
+60-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:39:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:40:17-76
+62-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:40:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:43:9-46:71
+66            android:name="com.yalantis.ucrop.UCropActivity"
+66-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:44:13-60
+67            android:screenOrientation="portrait"
+67-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:45:13-49
+68            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+68-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:46:13-69
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:49:9-51:33
+74            android:name="flutterEmbedding"
+74-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:50:13-44
+75            android:value="2" />
+75-->C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\android\app\src\main\AndroidManifest.xml:51:13-30
+76
+77        <service
+77-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+78            android:name="com.google.firebase.components.ComponentDiscoveryService"
+78-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+79            android:directBootAware="true"
+79-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+80            android:exported="false" >
+80-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:29:13-37
 81            <meta-data
-81-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
-82                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
-82-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
+81-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+82-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
 83                android:value="com.google.firebase.components.ComponentRegistrar" />
-83-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+83-->[:firebase_storage] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_storage\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 84            <meta-data
-84-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-85-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+84-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+85-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
 86                android:value="com.google.firebase.components.ComponentRegistrar" />
-86-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+86-->[:firebase_analytics] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
 87            <meta-data
-87-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-88-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+87-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+88-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
 89                android:value="com.google.firebase.components.ComponentRegistrar" />
-89-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+89-->[:cloud_firestore] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 90            <meta-data
-90-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
-91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-91-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+90-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+91-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 92                android:value="com.google.firebase.components.ComponentRegistrar" />
-92-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+92-->[:firebase_auth] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_auth\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 93            <meta-data
-93-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
-94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-94-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+93-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+94                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+94-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
 95                android:value="com.google.firebase.components.ComponentRegistrar" />
-95-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+95-->[:firebase_core] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 96            <meta-data
-96-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
-97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-97-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+96-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+97                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+97-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
 98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+98-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\dabf6277090e314ccc96495c411e23e0\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
 99            <meta-data
-99-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
-100                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-100-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+99-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+100                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+100-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
 101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+101-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3263c67f642443b7a8433b3039cfa9d3\firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
 102            <meta-data
-102-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
-103                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-103-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+102-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+103                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+103-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
 104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+104-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
 105            <meta-data
-105-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
-106                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-106-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+105-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+106                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+106-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
 107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
-108        </service>
-109
-110        <provider
-110-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
-111            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-111-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
-112            android:authorities="com.example.elchackathon_app.flutter.image_provider"
-112-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
-113            android:exported="false"
-113-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
-114            android:grantUriPermissions="true" >
-114-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
-115            <meta-data
-115-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
-116                android:name="android.support.FILE_PROVIDER_PATHS"
-116-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
-117                android:resource="@xml/flutter_image_picker_file_paths" />
-117-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
-118        </provider>
-119
-120        <activity
-120-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
-121            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-121-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
-122            android:exported="false"
-122-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
-123            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-123-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
-124
-125        <receiver
-125-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
-126            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-126-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
-127            android:enabled="true"
-127-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
-128            android:exported="false" >
-128-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
-129        </receiver>
-130
-131        <service
-131-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
-132            android:name="com.google.android.gms.measurement.AppMeasurementService"
-132-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
-133            android:enabled="true"
-133-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
-134            android:exported="false" />
-134-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
-135        <service
-135-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
-136            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-136-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
-137            android:enabled="true"
-137-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
-138            android:exported="false"
-138-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
-139            android:permission="android.permission.BIND_JOB_SERVICE" />
-139-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
-140
-141        <activity
-141-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
-142            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-142-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
-143            android:excludeFromRecents="true"
-143-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
-144            android:exported="true"
-144-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
-145            android:launchMode="singleTask"
-145-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
-146            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-146-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
-147            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-147-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
-148
-149        <provider
-149-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-150            android:name="com.google.firebase.provider.FirebaseInitProvider"
-150-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-151            android:authorities="com.example.elchackathon_app.firebaseinitprovider"
-151-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-152            android:exported="false"
-152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-153            android:initOrder="100" />
-153-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-154
-155        <activity
-155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-157            android:exported="false"
-157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-159
-160        <meta-data
-160-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-161            android:name="com.google.android.gms.version"
-161-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-162            android:value="@integer/google_play_services_version" />
-162-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-163    </application>
-164
-165</manifest>
+107-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3ab0510185e16d82b8dbc431cdf2f49d\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:20:13-22:85
+109                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+109-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:21:17-111
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-firestore:21.4.3] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\f8833e411bb0c4d6331df91a6c34ee98\jetified-firebase-firestore-21.4.3\AndroidManifest.xml:22:17-82
+111        </service>
+112
+113        <provider
+113-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+114            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+114-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+115            android:authorities="com.example.elchackathon_app.flutter.image_provider"
+115-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+116            android:exported="false"
+116-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+117            android:grantUriPermissions="true" >
+117-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+118            <meta-data
+118-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+119                android:name="android.support.FILE_PROVIDER_PATHS"
+119-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+120                android:resource="@xml/flutter_image_picker_file_paths" />
+120-->[:image_picker] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+121        </provider>
+122
+123        <activity
+123-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+124            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+124-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+125            android:exported="false"
+125-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+126            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+126-->[:url_launcher] C:\Users\Eeshan Dutta\Documents\GitHub\Elixir\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+127
+128        <receiver
+128-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+129            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+129-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+131            android:exported="false" >
+131-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+132        </receiver>
+133
+134        <service
+134-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+135            android:name="com.google.android.gms.measurement.AppMeasurementService"
+135-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+136            android:enabled="true"
+136-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+137            android:exported="false" />
+137-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+138        <service
+138-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+139            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+139-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+141            android:exported="false"
+141-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+142            android:permission="android.permission.BIND_JOB_SERVICE" />
+142-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\a1328a97e0a391348e228cc11cfeeae5\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+143
+144        <activity
+144-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+145            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+145-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+146            android:excludeFromRecents="true"
+146-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+147            android:exported="true"
+147-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+148            android:launchMode="singleTask"
+148-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+149            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+149-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\875ef3476b07f46630670a77bf932d65\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+154            android:authorities="com.example.elchackathon_app.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+155            android:exported="false"
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+156            android:initOrder="100" />
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\091aa3dfd2d8ca520f975e39b268b965\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+157
+158        <activity
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+159            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+161-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\3fc45067e5d4f81a347afb5bc6343590\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+164            android:name="com.google.android.gms.version"
+164-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+165            android:value="@integer/google_play_services_version" />
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Eeshan Dutta\.gradle\caches\transforms-2\files-2.1\c7045e95038ef26cd3a2c525c014d1a4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+166    </application>
+167
+168</manifest>
