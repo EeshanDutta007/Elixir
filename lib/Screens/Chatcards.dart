@@ -14,7 +14,9 @@ class _ChatCardState extends State<ChatCard> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: HexColor('#77FF77'),
+        backgroundColor: HexColor('#3AB83A'),
+        title: Text('About the app', style: TextStyle(fontSize: 25),),
+        centerTitle: true,
       ),
       body: Column(
         children: [

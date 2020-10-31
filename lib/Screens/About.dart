@@ -1,7 +1,6 @@
-import 'package:ctrl_alt_elite/Authentication/login_screen.dart';
+import 'package:ctrl_alt_elite/Screens/Aboutdevs.dart';
 import 'package:ctrl_alt_elite/database.dart';
 import 'package:ctrl_alt_elite/nav_bar.dart';
-import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
 import 'package:ctrl_alt_elite/main.dart';
@@ -10,8 +9,6 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:http/http.dart' as http;
-import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 String email;
 String origEmail;
@@ -121,30 +118,50 @@ class _AboutPageState extends State<AboutPage> {
             ),
           ),
           Padding(
-            padding: EdgeInsets.fromLTRB(
-                MediaQuery.of(context).size.width / 2 - 45,
-                MediaQuery.of(context).size.height - 150,
-                0,
-                0),
-            child: RaisedButton(
-                color: HexColor('#77FF77'),
-                child: Container(
-                    height: 30,
-                    width: 50,
-                    child: Center(
-                        child: Text('Logout', style: TextStyle(fontSize: 15)))),
-                onPressed: () async {
-                  final prefs = await SharedPreferences.getInstance();
-                  prefs.remove('email');
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => MyApp(status: null)),
-                  );
-                },
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(10)),
-                )),
+            padding: EdgeInsets.fromLTRB(0,
+                MediaQuery.of(context).size.height - 150, 0, 0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                RaisedButton(
+                    color: HexColor('#77FF77'),
+                    child: Container(
+                        height: 30,
+                        width: 50,
+                        child: Center(
+                            child: Text('Logout', style: TextStyle(fontSize: 15)))),
+                    onPressed: () async {
+                      final prefs = await SharedPreferences.getInstance();
+                      prefs.remove('email');
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => MyApp(status: null)),
+                      );
+                    },
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                    )
+                ),
+                SizedBox(width: 30,),
+                RaisedButton(
+                    color: HexColor('#77FF77'),
+                    child: Container(
+                        height: 30,
+                        width: 50,
+                        child: Center(
+                            child: Text('About', style: TextStyle(fontSize: 15)))),
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => AboutDev())
+                      );
+                    },
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.all(Radius.circular(10)),
+                    )),
+              ],
+            ),
           ),
         ],
       ),

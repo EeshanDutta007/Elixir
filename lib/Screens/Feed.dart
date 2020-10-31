@@ -37,7 +37,7 @@ class _FeedState extends State<Feed> {
       appBar: AppBar(
         title: Center(child: Text(a==1 ? 'बातचीत' :'Chat')),
         leading: null,
-        backgroundColor: Colors.green[600],
+        backgroundColor: HexColor('#3AB83A'),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             bottomLeft: Radius.circular(16),

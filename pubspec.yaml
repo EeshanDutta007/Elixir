@@ -84,7 +84,11 @@ flutter:
     - assets/images/ecorp-lightgreen.png
     - assets/images/Grey.png
     - assets/images/GroupLogo.png
-    - icon.png
+    - assets/images/icon.png
+    - assets/images/sohamsakaria.jpg
+    - assets/images/eeshandutta.jpg
+    - assets/images/parthpandey.jpg
+    - assets/images/parthsrivastava.jpeg
 
   fonts:
     - family: OpenSans

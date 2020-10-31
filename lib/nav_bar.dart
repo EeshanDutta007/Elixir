@@ -8,7 +8,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'Screens/Chat.dart';
 import 'Screens/Feed.dart';
 import 'Screens/About.dart';
 import 'Screens/Assistant.dart';
@@ -50,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
     Icons.dynamic_feed_outlined,
     Icons.chat,
     Icons.location_on,
-    Icons.info_outline_sharp,
+    Icons.person,
   ];
 
   void f() async{
