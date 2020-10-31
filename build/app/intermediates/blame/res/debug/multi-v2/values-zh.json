@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Soham\\Documents\\GitHub\\Elixir\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "outputFile": "C:\\Users\\Eeshan Dutta\\Documents\\GitHub\\Elixir\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Soham\\.gradle\\caches\\transforms-2\\files-2.1\\1e2cde811ae7cc4bce11f3bc7063fa53\\ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
+                    "source": "C:\\Users\\Eeshan Dutta\\.gradle\\caches\\transforms-2\\files-2.1\\1e2cde811ae7cc4bce11f3bc7063fa53\\ucrop-2.2.6\\res\\values-zh\\values-zh.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

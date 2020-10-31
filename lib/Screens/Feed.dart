@@ -14,14 +14,15 @@ import 'package:fluttertoast/fluttertoast.dart';
 String email;
 File _imageFile;
 int a = 0;
-Future<void> currentUserEmail() async{
+Future<void> currentUserEmail() async {
   SharedPreferences prefs = await SharedPreferences.getInstance();
-  email=prefs.getString('email');
+  email = prefs.getString('email');
 }
+
 // ignore: deprecated_member_use
 final _firestore = Firestore.instance;
-class Feed extends StatefulWidget {
 
+class Feed extends StatefulWidget {
   @override
   _FeedState createState() => _FeedState();
 }
@@ -29,13 +30,13 @@ class Feed extends StatefulWidget {
 class _FeedState extends State<Feed> {
   final messageTextController = TextEditingController();
   final _auth = FirebaseAuth.instance;
-  String messageText='';
+  String messageText = '';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
       appBar: AppBar(
-        title: Center(child: Text(a==1 ? 'बातचीत' :'Chat')),
+        title: Center(child: Text(a == 1 ? 'चारा' : 'Feed')),
         leading: null,
         backgroundColor: HexColor('#3AB83A'),
         shape: RoundedRectangleBorder(
@@ -52,7 +53,7 @@ class _FeedState extends State<Feed> {
             MessagesStream(),
             FloatingActionButton(
               child: Icon(Icons.add),
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => GetInfo()),
@@ -78,7 +79,10 @@ class _MessagesStreamState extends State<MessagesStream> {
   @override
   Widget build(BuildContext context) {
     return StreamBuilder<QuerySnapshot>(
-      stream: _firestore.collection('blogs').orderBy('time',descending: false).snapshots(),
+      stream: _firestore
+          .collection('blogs')
+          .orderBy('time', descending: false)
+          .snapshots(),
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
           return Center(
@@ -134,14 +138,14 @@ class _MessageBubbleState extends State<MessageBubble> {
 
   @override
   Widget build(BuildContext context) {
-    if(a==1) {
+    if (a == 1) {
       translator.translate(widget.text, to: 'hi').then((output) {
         setState(() {
           widget.text = output.toString();
         });
       });
     }
-    if(a==0){
+    if (a == 0) {
       translator.translate(widget.text, to: 'en').then((output) {
         setState(() {
           widget.text = output.toString();
@@ -152,7 +156,7 @@ class _MessageBubbleState extends State<MessageBubble> {
       padding: EdgeInsets.all(10.0),
       child: Column(
         crossAxisAlignment:
-        widget.isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
+            widget.isMe ? CrossAxisAlignment.end : CrossAxisAlignment.start,
         children: <Widget>[
           Text(
             widget.sender,
@@ -163,36 +167,46 @@ class _MessageBubbleState extends State<MessageBubble> {
           ),
           Center(
             child: Container(
-              width: MediaQuery.of(context).size.width-50,
+              width: MediaQuery.of(context).size.width - 50,
               child: Material(
                 borderRadius: widget.isMe
                     ? BorderRadius.only(
-                    topLeft: Radius.circular(5.0),
-                    bottomLeft: Radius.circular(5.0),
-                    topRight: Radius.circular(5.0),
-                    bottomRight: Radius.circular(5.0))
+                        topLeft: Radius.circular(5.0),
+                        bottomLeft: Radius.circular(5.0),
+                        topRight: Radius.circular(5.0),
+                        bottomRight: Radius.circular(5.0))
                     : BorderRadius.only(
-                  topLeft: Radius.circular(5.0),
-                  bottomLeft: Radius.circular(5.0),
-                  bottomRight: Radius.circular(5.0),
-                  topRight: Radius.circular(5.0),
-                ),
+                        topLeft: Radius.circular(5.0),
+                        bottomLeft: Radius.circular(5.0),
+                        bottomRight: Radius.circular(5.0),
+                        topRight: Radius.circular(5.0),
+                      ),
                 elevation: 5.0,
                 color: widget.isMe ? Colors.green[600] : Colors.white,
                 child: Padding(
-                  padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-                  child: widget.text.substring(widget.text.length-4,widget.text.length)=='.jpg'||widget.text.substring(widget.text.length-4,widget.text.length)=='.png'||widget.text.substring(widget.text.length-5,widget.text.length)=='.jpeg' ?Image.network(
-                    widget.text,
-                  )
-                      :Center(
-                        child: Text(
-                    widget.text,
-                    style: TextStyle(
-                        color: widget.isMe ? Colors.white : Colors.black,
-                        fontSize: 15.0,
-                    ),
-                  ),
-                      ),
+                  padding:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                  child: widget.text.substring(
+                                  widget.text.length - 4, widget.text.length) ==
+                              '.jpg' ||
+                          widget.text.substring(
+                                  widget.text.length - 4, widget.text.length) ==
+                              '.png' ||
+                          widget.text.substring(
+                                  widget.text.length - 5, widget.text.length) ==
+                              '.jpeg'
+                      ? Image.network(
+                          widget.text,
+                        )
+                      : Center(
+                          child: Text(
+                            widget.text,
+                            style: TextStyle(
+                              color: widget.isMe ? Colors.white : Colors.black,
+                              fontSize: 15.0,
+                            ),
+                          ),
+                        ),
                 ),
               ),
             ),
@@ -231,22 +245,22 @@ class _ImageCaptureState extends State<ImageCapture> {
         sourcePath: _imageFile.path,
         aspectRatioPresets: Platform.isAndroid
             ? [
-          CropAspectRatioPreset.square,
-          CropAspectRatioPreset.ratio3x2,
-          CropAspectRatioPreset.original,
-          CropAspectRatioPreset.ratio4x3,
-          CropAspectRatioPreset.ratio16x9
-        ]
+                CropAspectRatioPreset.square,
+                CropAspectRatioPreset.ratio3x2,
+                CropAspectRatioPreset.original,
+                CropAspectRatioPreset.ratio4x3,
+                CropAspectRatioPreset.ratio16x9
+              ]
             : [
-          CropAspectRatioPreset.original,
-          CropAspectRatioPreset.square,
-          CropAspectRatioPreset.ratio3x2,
-          CropAspectRatioPreset.ratio4x3,
-          CropAspectRatioPreset.ratio5x3,
-          CropAspectRatioPreset.ratio5x4,
-          CropAspectRatioPreset.ratio7x5,
-          CropAspectRatioPreset.ratio16x9
-        ],
+                CropAspectRatioPreset.original,
+                CropAspectRatioPreset.square,
+                CropAspectRatioPreset.ratio3x2,
+                CropAspectRatioPreset.ratio4x3,
+                CropAspectRatioPreset.ratio5x3,
+                CropAspectRatioPreset.ratio5x4,
+                CropAspectRatioPreset.ratio7x5,
+                CropAspectRatioPreset.ratio16x9
+              ],
         androidUiSettings: AndroidUiSettings(
             toolbarTitle: 'Cropper',
             toolbarColor: Colors.deepOrange,
@@ -308,7 +322,7 @@ class Uploader extends StatefulWidget {
 
 class _UploaderState extends State<Uploader> {
   final FirebaseStorage _storage =
-  FirebaseStorage(storageBucket: 'gs://ctrl-alt-elite-bd79d.appspot.com');
+      FirebaseStorage(storageBucket: 'gs://ctrl-alt-elite-bd79d.appspot.com');
 
   StorageUploadTask _uploadTask;
 
@@ -317,7 +331,7 @@ class _UploaderState extends State<Uploader> {
     setState(() {
       _uploadTask = _storage.ref().child(filePath).putFile(widget.file);
       final StorageReference ref =
-      FirebaseStorage.instance.ref().child(filePath);
+          FirebaseStorage.instance.ref().child(filePath);
     });
   }
 
@@ -363,7 +377,7 @@ class _UploaderState extends State<Uploader> {
                   if (_uploadTask.isInProgress)
                     FlatButton(
                       child:
-                      Icon(Icons.pause, size: 50, color: Colors.green[600]),
+                          Icon(Icons.pause, size: 50, color: Colors.green[600]),
                       onPressed: _uploadTask.pause,
                     ),
                   Column(
@@ -372,18 +386,18 @@ class _UploaderState extends State<Uploader> {
                       Text(
                         '${(progressPercent * 100).toStringAsFixed(2)} % ',
                         style:
-                        TextStyle(fontSize: 24, color: Colors.green[600]),
+                            TextStyle(fontSize: 24, color: Colors.green[600]),
                       ),
                     ],
                   ),
                   Padding(
                     padding:
-                    EdgeInsets.only(left: 40.0, right: 40.0, bottom: 80.0),
+                        EdgeInsets.only(left: 40.0, right: 40.0, bottom: 80.0),
                     child: LinearProgressIndicator(
                         value: progressPercent,
                         minHeight: 30.0,
                         valueColor:
-                        AlwaysStoppedAnimation<Color>(Colors.green[600]),
+                            AlwaysStoppedAnimation<Color>(Colors.green[600]),
                         backgroundColor: Color(0xfffce2e1)),
                   ),
                 ]);

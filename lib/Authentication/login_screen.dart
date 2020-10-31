@@ -69,7 +69,7 @@ class LoginScreen extends StatelessWidget {
     );
 
     return FlutterLogin(
-      logo: 'icon.png',
+      logo: 'assets/images/icon.png',
       title: 'Elixir',
       emailValidator: (value) {
         if (!value.contains('@') || !value.endsWith('.com')) {

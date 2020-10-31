@@ -15,7 +15,10 @@ class _ChatCardState extends State<ChatCard> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: HexColor('#3AB83A'),
-        title: Text('About the app', style: TextStyle(fontSize: 25),),
+        title: Text(
+          'Discussion forum',
+          style: TextStyle(fontSize: 25),
+        ),
         centerTitle: true,
       ),
       body: Column(
@@ -25,10 +28,13 @@ class _ChatCardState extends State<ChatCard> {
             elevation: 20,
             child: FlatButton(
               color: Colors.white,
-              onPressed: (){
+              onPressed: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Chat(currentUser: currentUser,)),
+                  MaterialPageRoute(
+                      builder: (context) => Chat(
+                            currentUser: currentUser,
+                          )),
                 );
               },
               child: Container(
@@ -38,7 +44,7 @@ class _ChatCardState extends State<ChatCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Padding(
-                      padding: EdgeInsets.only(top:10),
+                      padding: EdgeInsets.only(top: 10),
                       child: Container(
                         height: 80,
                         width: 80,
@@ -46,29 +52,43 @@ class _ChatCardState extends State<ChatCard> {
                             image: DecorationImage(
                               image: AssetImage('assets/images/GroupLogo.png'),
                             ),
-                            borderRadius: BorderRadius.all(Radius.circular(80))
-                        ),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(80))),
                       ),
                     ),
-                    SizedBox(width: 15,),
+                    SizedBox(
+                      width: 15,
+                    ),
                     Padding(
-                      padding: EdgeInsets.only(top:20),
+                      padding: EdgeInsets.only(top: 20),
                       child: Container(
-                        child: Text('Group Chat',
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontWeight: FontWeight.w300,
-                          ),
-                        )
-                      ),
+                          child: Text(
+                        'Group Chat',
+                        style: TextStyle(
+                          fontSize: 25,
+                          fontWeight: FontWeight.w300,
+                        ),
+                      )),
                     ),
                   ],
                 ),
               ),
             ),
           ),
+          // ignore: missing_required_param
+          Padding(
+            padding: const EdgeInsets.all(100.0),
+            child: Center(
+              child: FloatingActionButton.extended(
+                label: Text('Video call'),
+                icon: Icon(Icons.video_call),
+                backgroundColor: Colors.green,
+              ),
+            ),
+          ),
         ],
       ),
+      // ignore: missing_required_param
     );
   }
 }
