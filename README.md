@@ -29,11 +29,14 @@ a one stop location to discuss about different medical milestones , connect with
 4. Have a feed section for people to share recovery stories and give motivation to everyone
  <img src = "feed.jpg" height=300> 
 5. Video calling feature available in one on one chat
- 
+ <p float="left">
+<img src = "Video-2.jpg" height=300            > 
+<img src = "Video-1.jpg" height=300>
+</p>
 6. Common discussion forum available 
 <img src = "english_chat.jpg" height=300> 
 7. AI chatbot that speaks to you when u ask them basic questions about medical terms and general info
- <img src = "assistant.jpeg" height=300> 
+ <img src = "assistant.jpg" height=300> 
 8. Language translation
 <p float="left">
      <img src = "english_chat.jpg" height=300> 
