@@ -1,0 +1,4 @@
+#Sun Nov 01 03:58:31 IST 2020
+base.0=C\:\\Users\\Eeshan Dutta\\Downloads\\test-main\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
